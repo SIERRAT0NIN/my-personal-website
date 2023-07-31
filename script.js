@@ -1,7 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "FlatIron School";
+const p = document.createElement("p");
+p.textContent = "FlatIron School";
 
-document.querySelector("body").appendChild(h2);
+document.querySelector("body").appendChild(p);
 
 const body = document.querySelector("body");
 

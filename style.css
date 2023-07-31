@@ -1,9 +1,14 @@
 * h1,
-h2 {
+h2,
+h3 {
   text-align: center;
   color: black;
   font-family: monospace;
   font-size: 5rem;
+}
+p {
+  text-align: center;
+  font-family: cursive;
 }
 a {
   text-decoration: none;
@@ -18,11 +23,9 @@ li {
 .socials {
   text-decoration: none;
   position: absolute;
-  display: inline-flex;
+  display: inline-table;
   align-items: center;
   justify-content: center;
-  padding: 40%;
-}
-.navbar {
-  background-color: pink;
+  padding-left: 35rem;
+  padding-top: 30rem;
 }
