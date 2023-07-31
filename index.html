@@ -6,16 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
 <body">
+    <!-- NAV BAR -->
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home">Alberto Sierra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div>
-        <button id="pinkModeToggle">Pink Mode🩷</button>
-        <h1>Hello World!</h1>
-        <h2>Alberto's homepage, Welcome! 🍓🧁</h2>
-        <h2>This is my first website!</h2>
-    </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Personal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#socials">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- CONTENT -->
+    <section>
+        <div class=" intro">
+            <button class="btn bg-danger-subtle" id="pinkModeToggle">Pink Mode🩷</button>
+            <h1>Hello World!</h1>
+            <h2>Alberto's homepage, Welcome! 🍓🧁</h2>
+            <h2>This is my first website!</h2>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- CONTACT -->
+    <section class="contact container-fluid">
+        <div class="socials" id="socials">
+            <button type="button" class="btn btn-light"" > <a href=" https://github.com/SIERRAT0NIN">Github</a></button>
+            <button type="button" class="btn btn-light""> <a
+                            href=" https://www.linkedin.com/in/sierra-alberto23">LinkedIn</a></button>
+            <button type="button" class="btn btn-light""> <a href=" https://x.com">twitter</a></button>
+        </div>
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
     </body>
 

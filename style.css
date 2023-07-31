@@ -6,10 +6,24 @@ h2 {
   font-family: monospace;
   font-size: 5rem;
 }
-div {
-  display: flexbox;
+a {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
 }
 
 .pink-mode {
+  background-color: pink;
+}
+.socials {
+  text-decoration: none;
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40%;
+}
+.navbar {
   background-color: pink;
 }
