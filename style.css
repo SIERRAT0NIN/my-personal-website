@@ -23,7 +23,7 @@ li {
 .socials {
   text-decoration: none;
   position: absolute;
-  display: inline-table;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 35rem;
