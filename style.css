@@ -1,10 +1,15 @@
-* {
-  background-color: pink;
-}
-h1,
+* h1,
 h2 {
+  /* background-color: pink; */
   text-align: center;
-  color: white;
+  color: black;
   font-family: monospace;
   font-size: 5rem;
+}
+div {
+  display: flexbox;
+}
+
+.pink-mode {
+  background-color: pink;
 }
