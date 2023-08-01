@@ -28,6 +28,9 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 10px;
 }
+.navbar-brand {
+  position: sticky;
+}
 .socials {
   margin-top: 25%;
   display: flex;
