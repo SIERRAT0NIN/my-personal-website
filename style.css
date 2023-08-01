@@ -38,6 +38,7 @@ p {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 #sbtn {
   background-color: rgba(255, 255, 255, 0.2);
