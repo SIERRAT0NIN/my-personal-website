@@ -49,13 +49,19 @@ p {
   padding: 10px;
   margin: 15px;
 }
-
+/* 
 img {
-  width: 300px;
   border-radius: 35%;
   height: auto;
-}
+  size: 3rem;
+} */
 .headerAll {
   display: inline-flex;
-  margin: 5%;
+  margin: 1rem;
 }
+
+img.selfie {
+  width: 15rem;
+}
+/* .selfie { */
+/* } */
