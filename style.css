@@ -1,5 +1,5 @@
-html {
-  background-color: none;
+* {
+  margin: 0px 5px;
 }
 h1,
 h2,
@@ -66,4 +66,9 @@ img {
 
 img.selfie {
   width: 15rem;
+}
+#aboutMe.container {
+  width: 60%;
+  height: auto;
+  right: 5%;
 }
