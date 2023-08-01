@@ -57,11 +57,10 @@ img {
 } */
 .headerAll {
   display: inline-flex;
+  position: relative;
   margin: 1rem;
 }
 
 img.selfie {
   width: 15rem;
 }
-/* .selfie { */
-/* } */
