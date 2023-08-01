@@ -31,9 +31,17 @@ p {
   justify-content: center;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   border-radius: 10px;
-
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#sbtn {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 15px;
 }
