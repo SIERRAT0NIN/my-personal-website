@@ -49,3 +49,13 @@ p {
   padding: 10px;
   margin: 15px;
 }
+
+img {
+  width: 300px;
+  border-radius: 35%;
+  height: auto;
+}
+.headerAll {
+  display: inline-flex;
+  margin: 5%;
+}
