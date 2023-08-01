@@ -1,31 +1,39 @@
-* h1,
+html {
+  background-color: none;
+}
+h1,
 h2,
 h3 {
   text-align: center;
   color: black;
-  font-family: monospace;
+  font-family: "Open Sans", sans-serif;
   font-size: 5rem;
 }
 p {
   text-align: center;
-  font-family: cursive;
+  font-family: "Montserrat", sans-serif;
 }
-a {
-  text-decoration: none;
-}
-li {
-  text-decoration: none;
-}
-
 .pink-mode {
   background-color: pink;
 }
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 .socials {
-  text-decoration: none;
-  position: absolute;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding-left: 37%;
-  padding-top: 40%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
