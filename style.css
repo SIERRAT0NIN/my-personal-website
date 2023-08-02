@@ -18,12 +18,12 @@ p {
 }
 .container {
   position: relative;
-  padding: 20px;
+  /* padding: 20px; */
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  width: 400px;
-  height: 200px;
+  /* width: 50%;
+  height: 200px; */
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 10px;
@@ -66,9 +66,35 @@ img {
 
 img.selfie {
   width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#aboutMe.aboutMeContainer {
-  width: 60%;
+.aboutMeContainer p {
+  position: relative;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  width: 500px;
   height: auto;
-  right: 5%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  z-index: 0;
+}
+.intro {
+  width: 5rem;
+  margin-left: 25%;
+}
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+#pro-selfie {
+  position: relative;
+  margin-left: 20%;
+  z-index: 1;
 }
