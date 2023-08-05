@@ -22,7 +22,7 @@ pinkModeToggle.addEventListener("click", togglePinkMode);
 // I will need a apiKey and apiUrl for APIs.
 const apiKey = "b6ba3ed28ec0a2ed6183145e16564d56";
 const apiUrl =
-  "https://api.openweathermap.org/data/2.5/weather?q=san francisco&appid=" +
+  "https://api.openweathermap.org/data/2.5/weather?q=san rafael&appid=" +
   apiKey;
 // Fetch
 fetch(apiUrl)
