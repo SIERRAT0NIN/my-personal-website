@@ -20,12 +20,7 @@ img.selfie {
   justify-content: center;
   align-items: center;
 }
-nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
+/* Class */
 .pink-mode {
   background-color: pink;
 }
@@ -54,9 +49,8 @@ nav {
   position: relative;
 }
 .sticky {
-  position: sticky;
   top: 0;
-  z-index: 100;
+  position: sticky;
 }
 .headerAll {
   display: inline-flex;
