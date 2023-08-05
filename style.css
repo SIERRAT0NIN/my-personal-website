@@ -140,9 +140,10 @@ input[type="submit"]:hover {
   left: 1080px;
 }
 #weatherData {
-  width: 10rem;
+  top: 0px;
+  width: 13rem;
   height: 10rem;
   position: absolute;
-  right: 20rem;
+  right: 10rem;
   z-index: 2;
 }

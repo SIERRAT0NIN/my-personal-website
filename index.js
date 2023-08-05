@@ -21,9 +21,8 @@ pinkModeToggle.addEventListener("click", togglePinkMode);
 
 // I will need a apiKey and apiUrl for APIs.
 const apiKey = "b6ba3ed28ec0a2ed6183145e16564d56";
-const apiUrl =
-  "https://api.openweathermap.org/data/2.5/weather?q=san rafael&appid=" +
-  apiKey;
+const city = "San Francisco"; // Replace with the name of your desired city
+const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 // Fetch
 fetch(apiUrl)
   .then((response) => response.json())
@@ -31,7 +30,7 @@ fetch(apiUrl)
     const weatherData = document.getElementById("weatherData");
     weatherData.innerHTML = `
           <p>City: ${data.name}</p>
-          <p>Temperature: ${data.main.temp}°F</p>
+          <p>Temperature: ${data.main.temp.description}°F</p>
           <p>Weather: ${data.weather[0].description}</p>
         `;
   })
