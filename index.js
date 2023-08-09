@@ -42,15 +42,29 @@ fetch(apiUrl)
     console.error("Error fetching weather data:", error);
   });
 
-//   $(document).ready(function() {
-//     $("#toggleButton").click(function() {
-//         $("#toggleText").toggle();
-//     });
-// });
-// $("input").keypress(function(event){
-//   $("h1).text(event.key);
-// })
+$(document).ready(function () {
+  $("#contactForm").submit(function (event) {
+    event.preventDefault();
 
-$("h1").on("mouseover", function () {
-  $("h1").css("color", " purple");
+    // Get form data
+    var formData = {
+      name: $("#name").val(),
+      email: $("#email").val(),
+      subject: $("#subject").val(),
+      message: $("#message").val(),
+    };
+    $.ajax({
+      type: "POST",
+      url: "https://example.com/submit", // Replace with your server endpoint
+      data: formData,
+      success: function (response) {
+        $("#response").html("<p>Message sent successfully!</p>");
+      },
+      error: function () {
+        $("#response").html(
+          "<p>Error submitting the form. Please try again later.</p>"
+        );
+      },
+    });
+  });
 });

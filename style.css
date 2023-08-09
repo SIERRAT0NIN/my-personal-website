@@ -147,3 +147,12 @@ input[type="submit"]:hover {
   right: 10rem;
   z-index: 2;
 }
+
+.contactMe {
+  padding-top: 5%;
+}
+
+#contactForm {
+}
+
+/* #contactname #contactemail #contactsubject #contactmessage; */
