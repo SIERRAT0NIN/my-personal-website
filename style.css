@@ -142,7 +142,7 @@ input[type="submit"]:hover {
 #weatherData {
   top: 0px;
   width: 13rem;
-  height: 10rem;
+  height: 8rem;
   position: absolute;
   right: 10rem;
   z-index: 2;
